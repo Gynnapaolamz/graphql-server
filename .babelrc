@@ -1,3 +1,4 @@
+// Archivo de configuración de Babel 
 {
     "presets": [
         "@babel/preset-env"

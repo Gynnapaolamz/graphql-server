@@ -1,6 +1,7 @@
 import { makeExecutableSchema } from "graphql-tools";
 import { resolvers } from "./resolvers";
 
+//configura el esquema de graphql, definiendo como los datos pueden ser solicitados y modificados
 const typeDefs = `
     type Query {
         hello: String
